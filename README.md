@@ -1,12 +1,36 @@
-# React + Vite
+# 🔐 Password Manager – MERN Stack Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure and user-friendly password manager web application built using the **MERN Stack** (MongoDB, Express.js, React.js, and Node.js). This app allows users to save, edit, delete, and copy credentials for various websites in a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add and save website credentials (site name, username, password)
+- 📝 Edit or delete saved passwords
+- 📋 Copy all data to clipboard with one click
+- 🔍 View credentials in a structured list
+- ⚡ Real-time UI updates
+- 🔐 Passwords stored securely in MongoDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+### Frontend:
+- React.js
+- Tailwind CSS / CSS3
+- Axios
+- React Toastify
+- React Icons
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- dotenv
+- Cors
+- Nodemon (development)
+
+
+
